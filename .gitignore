@@ -1,0 +1,54 @@
+# macOS and editors
+.DS_Store
+.idea/
+.vscode/
+*.swp
+~$*.docx
+
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# Local credentials and configuration
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Downloaded data and generated output
+data/*
+!data/README.md
+*.log
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Downloaded financial data
+data/raw/
+data/processed/
+data/cache/
+
+# macOS
+.DS_Store
+
+# IDE settings
+.cursor/index/
+.vscode/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
